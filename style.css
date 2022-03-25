@@ -1,0 +1,56 @@
+:root {
+--gradient-box:linear-gradient(darkgrey,purple);
+}
+main {
+    background-color: rgb(104, 102, 102);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header {
+    text-align: center;
+    border: solid 2px blueviolet;
+    
+}
+body, head {
+    background-color: rgb(104, 102, 102); 
+}
+h1 {
+    color:blueviolet;
+    font-family: sans-serif;
+}
+h4 {
+    color:white;
+    font-family: sans-serif;
+
+}
+aside {
+    position: relative;
+    bottom: 50%;
+}
+
+h3 {
+    border-radius:2px;
+    border: solid 3px white;
+    z-index: 3;
+    margin: 40px;
+    position: relative;
+    bottom: 47%;
+    background-color: rgb(104, 102, 102);
+    font-size: 24px;
+    padding: 5px;
+    color:blueviolet;
+
+} 
+.box {
+  border: dashed 2px white;
+  border-width: 2px;
+  padding: 40px;
+  flex: 0 0 300px;
+  margin: 20px;
+  width: 20%;
+  flex-basis: 500px;
+  height: 200px;
+  
+}

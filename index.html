@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second Mini Project</title>
+  </head>
+  <body>
+    <header>
+      <h1>CSS Snippet Cheatsheet</h1>
+      <h4>
+        Ever have trouble recalling the exact syntaz for your favorite CSS Code?
+        Give it a permanent home and add it to this page! Select any snippet
+        below and it'll automatically select all of the code for you to copy.
+      </h4>
+    </header>
+    <main>
+        <article id="flexbox-row" class="box">
+          <h3>Flexbow Row</h3>
+          <aside>
+            <p>Use these three properties to creat a Flexbox row layout.</p>
+            <code>
+                <div class="code-words"></div>
+                .row {
+                    <br>
+                    display: flex;
+                    <br>
+                    flexbox-direction: row;
+                    <br>
+                    flex-wrap: wrap;
+                }
+            </code>
+        </aside>
+        </article>
+        <article id="flexbox-column" class="box">
+          <h3>Flexbox Column</h3>
+          <aside>
+            <p>Use this to create a Flexbox column layout.</p>
+              <code>
+                  .column {
+                    <br>
+                      display: flex;
+                      <br>
+                      flex-direction: column;
+                  }
+              </code>
+          </aside>
+        </article>
+        <article id="CSS-gridlLayout" class="box">
+          <h3>CSS Grid Layout</h3>
+          <aside>
+            <p>Build a 12-column layout using CSS Grid.</p>
+            <code>
+               .grid {
+                <br>
+                   display: grid;
+                   <br>
+                   width: 100%;
+                   <br>
+                   grid-template-columns;
+                   <br>
+                repeat(12, 1fr);
+                <br>
+               }
+            </code>
+          </aside>
+        </article>
+        <article id="linear-gradients" class="box">
+          <h3>Linear Gradients</h3>
+          <aside>
+            <p>
+                This will create a background linear gradient from top to bottom.
+              </p>
+              <code>
+                  .linear-gradient-background {
+                    <br>
+                      background-image: linear-gradient- (
+                        <br>
+                          rgba(232, 102, 236, 0.3) 0%,
+                          <br>
+                          rgba(232, 102, 236, 0.6) 100%):
+                          <br>
+                      )
+                  }
+              </code>
+          </aside>
+        </article>
+        <article id="box-transition-glow" class="box">
+          <h3>Box Transition Glow</h3>
+          <aside>
+            <p>Use transition and box shadows to glow on hover.</p>
+              <code>
+                  .code-card .card-header {
+                    <br>
+                      border-radius: 8px;
+                      <br>
+                      transition: all 0.5s ease-in-out;
+                      <br>
+                  }
+                  .code-card:hover,
+                  <br>
+                  .code.card:hover .card-header {
+                    <br>
+                      box-shadow: inset 0px 0px 8px
+                      <br>
+                      rgba (232, 102, 236, 1), 0 0 15px
+                      <br>
+                      rgba (232, 102, 236, 1);
+                      <br>
+                  }
+              </code>
+          </aside>
+        </article>
+        <article id="overlay-card-with-title" class="box">
+          <h3>Overlay Card With Title</h3>
+          <aside>
+            <p>
+                Use position porperties and negative margins to raise elements
+                higher than their natural starting point.
+              </p>
+              <code>
+                  .card-header {
+                    <br>
+                      position: relative;
+                      <br>
+                      margin-top: -20px;
+                      <br>
+                  }
+              </code>
+          </aside>
+        </article>
+    </main>
+  </body>
+</html>
